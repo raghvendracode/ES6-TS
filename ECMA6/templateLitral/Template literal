@@ -1,0 +1,18 @@
+Template literals is a feature of ES6 which allows us to work with 
+strings in a better way as when compared to ES5 and below. 
+By simply using template literals, we can improve 
+the code readability.Before ES6 we made use of ‘+’ operator
+ whenever we wanted to concatenate strings and also 
+ when we wanted to use a variable inside a string 
+ which is definitely not a recommended method.
+ Template literals use back-ticks(“) rather than the 
+single or double quotes we’ve used to with regular strings.
+
+
+// ES5 
+var name = 'Hemant Kumar'; 
+console.log('My name is '+ name);  
+  
+// ES6 
+const name = 'Hemant Kumar'; 
+console.log(`My name is ${name}`);  

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Creating a JavaScript Object.</p>
+
+<p id="test1"></p>
+<p id="test2"></p>
+<script>
+var person = {
+  firstName : "hemant",
+  lastName  : "kumar",
+  age     : 50,
+  eyeColor  : "blue"
+};
+// es5
+document.getElementById("test1").innerHTML = person.firstName + " " + person.lastName;
+
+
+document.write("<br/>");
+// es6 
+document.getElementById("test2").innerHTML = ` My Name is ${person.firstName}.  ${person.lastName}`;
+
+
+</script>
+
+</body>
+</html>
